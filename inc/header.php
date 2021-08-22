@@ -43,25 +43,7 @@
 			============================================== 
 			-->
 			<header class="header-one">
-				<div class="top-header">
-					<div class="container clearfix">
-						<div class="logo float-left"><a href="index.php"><img style="width:80px" src="img/blue.jpeg" alt=""></a></div>
-						<div class="address-wrapper float-right">
-							<ul>
-								<li class="address">
-									<i class="icon flaticon-placeholder"></i>
-									<h6>Address:</h6>
-									<p>2A0, Westlands, Kanairo.</p>
-								</li>
-								<li class="address">
-									<i class="icon flaticon-multimedia"></i>
-									<h6>Mail us:</h6>
-									<p>support@findit.com</p>
-								</li>
-							</ul>
-						</div> <!-- /.address-wrapper -->
-					</div> <!-- /.container -->
-				</div> <!-- /.top-header -->
+				
 
 				<div class="theme-menu-wrapper">
 					<div class="container">

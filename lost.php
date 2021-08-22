@@ -1,4 +1,4 @@
-<?php include './inc/header.php';?>
+<?php include './inc/head.php';?>
 
 
 <div class="theme-inner-banner section-spacing">

@@ -3,51 +3,6 @@
 
 
 
-/* ------------------------------------------ */
-/*             TABLE OF CONTENTS
-/* ------------------------------------------ */
-/*   01 - Global stlye  */
-/*   02 - Theme Title  */
-/*   03 - Theme Pagination  */
-/*   04 - Theme Header One */
-/*   05 - Theme Header Two */
-/*   06 - Theme menu One  */
-/*   07 - Theme menu Two  */
-/*   08 - Theme Main Banner  */
-/*   09 - Top Feature  */
-/*   10 - About Company  */
-/*   11 - Feature Banner  */
-/*   12 - Service Style One  */
-/*   13 - Testimonial Slider  */
-/*   14 - Our Team   */
-/*   15 - Theme Counter  */
-/*   16 - Free Consultation  */
-/*   17 - Partner Slider  */
-/*   18 - Theme footer one  */
-/*   19 - Theme footer Two   */
-/*   20 - CallOut Banner */
-/*   21 - Our Solution  */
-/*   22 - About Company Stye Two  */
-/*   23 - Our Case  */
-/*   24 - Faq Section  */
-/*   25 - Why Choose us  */
-/*   26 - Short Banner  */
-/*   27 - Latest News  */
-/*   28 - Google Map   */
-/*   29 - Theme Inner Banner   */
-/*   30 - Why WE Best   */
-/*   31 - Core Values   */
-/*   32 - Theme Sidebar One   */
-/*   33 - Service Details   */
-/*   34 - Project Details   */
-/*   35 - Blog Sidebar   */
-/*   36 - Blog Details   */
-/*   37 - Contact Us   */
-/*   38 - Compnay Branch Address   */
-/*   39 - Shop Page   */
-
-
-
 /**
 * Importing necessary  Styles.
 **/
@@ -81,7 +36,11 @@
   Loading Transition
 ====================================================================
 
+
  ***/
+
+
+
 #loader-wrapper {
   position: fixed;
   top: 0;
