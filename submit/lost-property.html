@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="../public/assets/css/bootstrap-datepicker.css"/>
         <link rel="stylesheet" href="../public/assets/css/bootstrap-timepicker.min.css"/>
         <link rel="stylesheet" href="../public/assets/css/bootstrap-select.css">
-        <!-- <link rel="stylesheet" href="https://www.lostings.com/public/assets/css/docs.min.css"> -->
+        <!-- <link rel="stylesheet" href="#/public/assets/css/docs.min.css"> -->
         <link rel="stylesheet" href="../public/assets/css/docsnew.min.css">
         <link rel="stylesheet" href="../public/assets/css/css3.css">
         <link rel="stylesheet" href="../public/assets/css/slick.css">
@@ -57,14 +57,14 @@ window.Laravel = {"csrfToken":"Tl9phNFvoYeatlSE08XNItGVRQcKQdxde7btwfVv","APP_UR
     <div class="header-top">
         <div class="container">
             <ul class="header-login clearfix">
-                				                <li><a href="https://www.lostings.com/company/admin">BUSINESS LOGIN</a></li>
-                <li><a href="https://www.lostings.com/user/login">CUSTOMER LOGIN</a></li>
+                				                <li><a href="#">BUSINESS LOGIN</a></li>
+                <li><a href="#">CUSTOMER LOGIN</a></li>
                             </ul>
         </div>
     </div>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="../index.html"><img src="../public/assets/images/black_logo.png"></a>
+            <a class="navbar-brand" href="../index.html"><img style="width:50px" src="../public/assets/images/blue.png"></a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="../public/assets/images/menu-bar.png">  
             </button>
@@ -91,8 +91,8 @@ window.Laravel = {"csrfToken":"Tl9phNFvoYeatlSE08XNItGVRQcKQdxde7btwfVv","APP_UR
     <div class="menu-top clearfix">
         <div class="menu-login clearfix">
             <ul class="clearfix">
-                                <li><a href="https://www.lostings.com/company/admin" class="login-menu">BUSINESS LOGIN</a></li>
-                <li><a href="https://www.lostings.com/user/login">LOGIN</a></li>
+                                <li><a href="#/company/admin" class="login-menu">BUSINESS LOGIN</a></li>
+                <li><a href="#/user/login">LOGIN</a></li>
                             </ul>
         </div>
         <button class="close-menu" type="button"><img src="../public/assets/images/menu-close.png"></button>
@@ -122,7 +122,7 @@ function searchItemTop(){
 	var terms_top = $("#term_txt_top").val();
 	localStorage.setItem('search-text-top', terms_top);
 	localStorage.setItem('search-text', terms_top);
-	location.href = '../search.html';
+	location.href = '#';
 }
 </script>
             <!-- Content Start -->
@@ -136,7 +136,7 @@ function searchItemTop(){
         
         
             
-</div>                                    <form method="POST" action="https://www.lostings.com/property/store" accept-charset="UTF-8" enctype="multipart/form-data" id="frm-property" autocomplete="off"><input name="_token" type="hidden" value="Tl9phNFvoYeatlSE08XNItGVRQcKQdxde7btwfVv">
+</div>                                    <form method="POST" action="#/property/store" accept-charset="UTF-8" enctype="multipart/form-data" id="frm-property" autocomplete="off"><input name="_token" type="hidden" value="Tl9phNFvoYeatlSE08XNItGVRQcKQdxde7btwfVv">
 <input name="property_type" type="hidden" value="1">
 <input id="country" name="country" type="hidden">
 <input id="state" name="state" type="hidden">
@@ -489,27 +489,27 @@ function searchItemTop(){
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <ul class="clearfix footer-bottom-left text-uppercase">
-                                                    <li><a href="https://www.lostings.com/user/login">LOGIN</a></li>
-                            <li class="bar-li"><a href="https://www.lostings.com/company/admin">BUSINESS LOGIN</a></li>
+                                                    <li><a href="#">LOGIN</a></li>
+                            <li class="bar-li"><a href="#">BUSINESS LOGIN</a></li>
                                             </ul>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="text-center">
                         <ul class="clearfix footer-social social-share">
-                            <li><a href="https://www.facebook.com/lostings/" target="_blank"><em class="fa fa-facebook"></em></a></li>
-                            <li><a href="https://twitter.com/lostingsinc" target="_blank"><em class="fa fa-twitter"></em></a></li>
-                            <li><a href="https://www.instagram.com/lostingsinc/" target="_blank"><em class="fa fa-instagram"></em></a></li>
+                            <li><a href="#" target="_blank"><em class="fa fa-facebook"></em></a></li>
+                            <li><a href="#" target="_blank"><em class="fa fa-twitter"></em></a></li>
+                            <li><a href="#"></em></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="text-right">
                         <ul class="clearfix footer-bottom-right">
-                            <li><a href="../page/faqs.html">FAQ</a></li>
-                            <li><a href="../page/about.html">About</a></li>
-                            <li><a href="../search.html">Search</a></li>
-                            <li><a href="../page/terms.html">Terms</a></li>
-                            <li><a href="../page/privacy.html">Privacy</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Search</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
 							<li>Copyright 2021</li>
                         </ul>
                     </div>
